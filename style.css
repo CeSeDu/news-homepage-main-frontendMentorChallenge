@@ -1,0 +1,220 @@
+#container{
+    margin: 8%; 
+}
+#navBar{
+    text-align: end;
+    color: black;
+    margin: 8%;
+    margin-top: 7%;
+    word-spacing:20px;
+}
+.navbar{
+    color:hsl(240, 100%, 5%);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+.softRed:hover{
+    color:hsl(5, 85%, 63%) ;
+}
+.softOrange:hover{
+    color: hsl(35, 77%, 62%);
+}
+#logo{
+    text-align: start;
+    float: left;
+    margin-top: -4px;
+}
+header{
+    float: left;
+}
+#headerBottom{
+    margin-top: 20px;
+}
+#headerText{
+    float: left;
+    font-size:large;
+    font-family: 'Inter', sans-serif ;
+    float: left;
+}
+#headerMetin{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif ;
+    color: hsl(236, 13%, 42%);
+    float: right;
+}
+#foto{
+    width: 730px;
+    height: 295px;
+}
+#redButton{
+    background-color: hsl(5, 85%, 63%) ;
+    width: 185px;
+    height: 45px;
+    color: white;
+    border: 0px;
+    float: right;
+    margin-top: 110px;
+    margin-right:-182px ;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+#redButton:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+#card{
+width: 350px;
+height: 420px;
+background-color:hsl(240, 100%, 5%);
+float: right;
+color: white;
+}
+ h3{
+    color:hsl(35, 77%, 62%);
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    margin: 20px;
+ }
+ .cardTitle{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin: 20px;
+ }
+ .cardText{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color:hsl(236, 13%, 42%);
+    margin: 20px;
+ }
+footer{
+    float: left;
+    width: 100%;
+    margin: 4%;
+}
+#footerLi{
+    margin: -3px;
+    width:375px;
+    float: left;
+    padding: 10px;
+   
+}
+.footerImg{
+    height: 150px;
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+}
+.footerTitle{
+    color: hsl(240, 100%, 5%);
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 50px;
+}
+.footerMetin{
+    color: hsl(236, 13%, 42%) ;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin: 0px ;
+    padding: 0px;
+   
+  
+}
+.footerIcon{
+    font-size: xx-large;
+    margin: 0px;
+    padding: 0px;
+    line-height: 50px;
+    color:hsl(236, 13%, 42%);
+}
+#foto2{
+    width: 370px;
+    height: 295px
+}
+.hamburger{
+    display: none;
+}
+@media screen and (max-width:700px) {
+    
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        float: right;
+        margin: 4%;
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: black;
+        margin:6px 0px ;  
+    }
+    .hamburgerExit{
+        display: block;
+        cursor: pointer;
+        float: right;
+        margin-right:50px;
+        margin-top:50px;
+    }
+    .navbar{
+        display:none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbarSm{
+        width: 50%;
+        height: 0px;
+        background-color:  hsl(36, 100%, 99%);
+        position:fixed;
+        top: 0%;
+        margin-left: 190px;
+        line-height: 50px;
+        font-family: 'Inter', sans-serif;
+        overflow: hidden;
+     
+         }
+       .navbarS{
+        display: block;
+        text-align: start;
+        margin-left: 8%;
+        text-decoration: none;
+        color: black;
+       } 
+       .navbarSm.active{
+        height: 1000px;
+        opacity: 1;
+       }
+    #foto{width:0px;
+        height: 0px}
+    
+    header{
+        float: left;
+        margin: 50px;
+    }
+    #container{
+        margin:4%;
+    }
+    #headerMetin{
+        font-size: 15px;
+        font-family: 'Inter', sans-serif ;
+        color: hsl(236, 13%, 42%);
+    
+        float: left;
+    }
+    #redButton{
+        float: left;
+        margin-top: 10px;
+        margin-right:0px ;
+    }
+    #card{
+        float: left;
+        margin: 9%;
+    }
+    }
+    @media screen and (min-width:700px) {
+     #foto2{width:0px;}
+ 
+     .navbarSm{
+        display: none
+     }
+        }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Kenia&display=swap');
